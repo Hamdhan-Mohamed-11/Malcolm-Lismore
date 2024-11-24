@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.background-image {
+	background-image: url(images/18627-highlands-river-snow-ice-scotland-4k.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+
+}
+
+.logo {
+  position: absolute;
+  top: 50%; /* Adjust for vertical positioning */
+  left: 50%; /* Adjust for horizontal positioning */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+
+.logo img{
+	height: 110px;
+	width: 350px;
+}
+
+.enter-site-button { /* Assuming you added a class "enter-site-button" to the button */
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 10px 25px;
+  transition: transform .4s;
+  font-size: 20px;
+  font-family: Century Gothic;
+  position: absolute; /* Make the button absolute for positioning */
+  top: 57%; /* Adjust for vertical positioning */
+  left: 45%; /* Adjust for horizontal positioning */
+}
+
+.enter-site-button:hover {
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+}
